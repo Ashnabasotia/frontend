@@ -1,0 +1,78 @@
+.MainWrapper {
+    max-width: 100vw;
+    margin: 20px;
+    padding : 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.SubWrapper{
+    display: flex;
+    justify-content: left;
+
+}
+
+.SubWrapperLeft{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.SubWrapperRight{
+    flex : 4;
+}
+.NameRatingWrapper{ 
+    flex: 1; 
+    display: flex;
+    justify-content: left;
+}
+.NameWrapper{
+    flex: 1;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.ratingWrapper{
+   font-weight: 400;
+   font-size: 16px;
+   flex: 1;
+}
+
+.SubWrapperLeft > img{
+   height: 150px;
+   width: 150px;
+   border-radius: 100%;
+}
+.BooksTable{
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid;
+}
+table{
+    text-align: left;
+}
+th,td{
+    padding: 10px;
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.dateAndWebsite{
+    display: flex;
+    justify-content: left;
+}
+.date{
+    padding-right: 5px;
+}
+
+.Flag > img{
+    width: 36px;
+    height: 24px;
+}
+@media (max-width :900px){
+    .SubWrapper{
+        display: block;
+    }
+}
